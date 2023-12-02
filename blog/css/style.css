@@ -48,30 +48,30 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
-/* IMPORTED FONTS  */
+/* IMPORTED FONTS */
 
 @font-face {
     font-family: "ultra";
-    src: url('../fonts/serif/ultra-regular.ttf') format('truetype');
+    src: url(../fonts/serif/ultra-regular.ttf) format(truetype);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'roboto';
-    src: url('../fonts/sans-serif/roboto-regular.ttf') format('truetype');
+    src: url('../fonts/sans-serif/roboto-regular.ttf') format(truetype);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'lato';
-    src: url('../fonts/sans-serif/lato-regular.ttf') format('truetype');
+    src: url('../fonts/sans-serif/lato-regular.ttf') format(truetype);
     font-weight: normal;
     font-style: normal;
 }
 
-/*  TYPOGRAPHY   */
+/*  TYPOGRAPHY  */
 
 p {
     font-family: roboto, Arial, sans-serif;
@@ -100,6 +100,7 @@ h1 {
     background-color: #28234B;
     box-shadow: 5px 5px 4px 1px #888;
 }
+
 
 
 /*  GENERAL SETUP AND DEFAULTS  */
@@ -155,13 +156,13 @@ aside p {
     display: flex;
 }
 
-/* IMAGES AND FIGURES */
+/*  IMAGES AND FIGURES  */
 
 img {
     width: 100%;
 }
 
-figures {
+figure {
     margin: 0px;
 }
 
@@ -170,21 +171,19 @@ figures {
     float: left;
     margin-right: 0.75rem;
 }
-
 .subsection {
-    margin: 1rem 0rem
+    margin: 1rem 0rem;
 }
 .subsection figure {
     margin: 0rem 0.25rem;
     background-color: #f2e4c9;
 }
 
-.subsection figure figcaption{
+.subsection figure figcaption {
     padding: 0.5rem 0.5rem;
 }
     
-
-/* LINKS AND NAVIGATION */
+/*  LINKS AND NAVIGATION  */
 
 a {
     text-decoration: none;
@@ -194,7 +193,7 @@ nav a {
     display: inline-block;
     padding: 1.25rem 2 rem;
     font-size: 1.5rem;
-    font-family: lato, Arial, san-serif;
+    font-family: lato, Arial, sans-serif;
     color: #28234B;
 }
 
